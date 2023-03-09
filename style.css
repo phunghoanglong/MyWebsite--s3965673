@@ -1,0 +1,35 @@
+html{
+    box-sizing: border-box;
+    height: 100%;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    
+    background-color: #ffef78;
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+   
+    justify-content: center;
+}
+
+body h1{
+    margin: 20px;
+
+}
+body ul li{
+    font-size:  30px;
+    font-weight: bolder;
+    
+}
+.contact a img{
+    width: 50px;
+    margin: 10px;
+}
